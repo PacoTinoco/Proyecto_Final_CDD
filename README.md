@@ -1,14 +1,54 @@
 # Proyecto_Final_CDD
 **Francisco Tinoco, Pedro Ley, José Luis Almendarez**
 ***
-La `definicion` de nuestro proyecto es la siguiente ->
-Una pagina web desde la que un usuario pueda hacer trading desde nuestra plataforma a traves de su broker. El valor agregado de nuestro proyecto seria la capabilidad de utiliza diferenets modelos de pediccion de precios basados en diferentes estragias para su accion diaria. 
 
-Desglose Tecnico:
+Este proyecto tiene como objetivo el análisis de datos de las empresas tecnológicas Google, Amazon, y Apple, con un enfoque particular en el trading. Actualmente, el proyecto se encuentra en la etapa de Exploratory Data Analysis (EDA), donde se exploran patrones y características relevantes de los datos de estas tres compañías para un análisis más profundo y la futura implementación de modelos predictivos.
 
-Necesidades:
-- Hacer nuestra propia API que se dedique a nuestro almacenamiento de datos de manear tabular(o nosql/documentos)
-- Seleccionar modelos adecuados para la actividad.(Nota: limitar los tickers)
-- Hacer que la API que maneja a nuestros usuarios se conecten a la API del broker y el broker a la vez se maneje con los modeos de prediccion cargados en nuestro backend. 
+## Estructura del proyecto:
+Proyecto_Final_CDD/
+│
+├── Informe escrito/
+│   └── EDA_Notebook.ipynb  # Notebook con el análisis exploratorio de los datos
+│
+├── Experimentos/
+│   └── notebooks/
+│       └── models_experiments/
+│           └── Model_1_Experiment.ipynb  # Aquí se incluirán los experimentos con los modelos predictivos
+│           └── Model_2_Experiment.ipynb  # Otro ejemplo de experimentos con modelos
+│
+├── .gitignore               # Archivo gitignore para excluir archivos innecesarios del control de versiones
+├── README.md                # Instrucciones y descripción del proyecto
 
 
+Instalación y uso
+Requisitos previos
+Asegúrate de tener instalados los siguientes paquetes de Python:
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+yfinance (para descargar los datos de las acciones)
+notebook (para trabajar con los archivos .ipynb)
+
+Uso
+Clona este repositorio en tu entorno local:
+
+bash
+Copiar código
+git clone https://github.com/usuario/Proyecto_Final_CDD.git
+cd Proyecto_Final_CDD
+Ejecuta el análisis exploratorio:
+
+Navega a la carpeta Informe escrito/ y abre el archivo EDA_Notebook.ipynb.
+Ejecuta el notebook en un entorno Jupyter para explorar los datos de las compañías Google, Amazon y Apple.
+Prueba los modelos experimentales:
+
+Dentro de la carpeta Experimentos/notebooks/models_experiments/, encontrarás diferentes notebooks que contienen pruebas con modelos predictivos.
+Abre y ejecuta los notebooks para ver los resultados de los experimentos y las métricas de rendimiento de cada modelo.
+Datos utilizados
+El proyecto utiliza datos históricos de precios de las acciones de Google, Amazon y Apple, obtenidos a través de la API de Yahoo Finance mediante el uso de la librería yfinance.
+
+Estado del proyecto
+El proyecto está en una fase de desarrollo temprana. Actualmente, se ha completado la etapa de Análisis Exploratorio de Datos (EDA) y se están preparando experimentos con diferentes modelos predictivos, como ARIMA, Redes Neuronales LSTM, y modelos de Regresión Lineal.
