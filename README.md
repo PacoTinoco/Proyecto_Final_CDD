@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo el análisis de datos de las empresas tecnoló
 Proyecto_Final_CDD/
 │
 ├── Informe escrito/
-│   └── EDA_Notebook.ipynb  # Notebook con el análisis exploratorio de los datos
+│   └── NewGen.ipynb  # Notebook con el análisis exploratorio de los datos
 │
 ├── Experimentos/
 │   └── notebooks/
@@ -25,11 +25,17 @@ Requisitos previos
 Asegúrate de tener instalados los siguientes paquetes de Python:
 
 numpy
+
 pandas
+
 matplotlib
+
 seaborn
+
 scikit-learn
+
 yfinance (para descargar los datos de las acciones)
+
 notebook (para trabajar con los archivos .ipynb)
 
 Uso
@@ -39,9 +45,10 @@ bash
 Copiar código
 git clone https://github.com/usuario/Proyecto_Final_CDD.git
 cd Proyecto_Final_CDD
-Ejecuta el análisis exploratorio:
 
-Navega a la carpeta Informe escrito/ y abre el archivo EDA_Notebook.ipynb.
+***
+Ejecuta el análisis exploratorio:
+Navega a la carpeta Informe escrito/ y abre el archivo NewGen.ipynb.
 Ejecuta el notebook en un entorno Jupyter para explorar los datos de las compañías Google, Amazon y Apple.
 Prueba los modelos experimentales:
 
