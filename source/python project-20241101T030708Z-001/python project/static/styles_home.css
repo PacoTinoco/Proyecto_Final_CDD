@@ -1,0 +1,159 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del header */
+header {
+    background-color: #216eaa; /* Azul prusiano oscuro */
+    color: white;
+    padding: 20px;
+}
+
+/* Estilo del header nav */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4; /* Fondo azul del nav */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el nav */
+}
+
+/* Estilo del logo */
+.logo {
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Título de Fishnet */
+header h1 {
+    font-size: 24px;
+    color: black    ; /* Texto blanco para contraste */
+    margin: 0;
+    display: inline-block;
+    flex-grow: 1;
+}
+
+/* Estilo de enlaces en el nav */
+header nav a {
+    margin-left: 20px;
+    color: black; /* Enlaces en blanco para contraste */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Centrado de las preguntas en el main */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Estilos específicos para #what, #how y #why */
+#what, #how, #why {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #e6f2ff; /* Fondo azul claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Para el margen del texto dentro */
+}
+
+/* Separación de los enlaces de usuario (Crear Usuario e Iniciar Sesión) */
+.nav-right {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-right a {
+    margin-left: 15px;
+}
+
+/* Estilo para formularios */
+form {
+    margin-top: 10px;
+}
+
+/* Estilos de los inputs */
+input[type="number"],
+select {
+    width: calc(100% - 22px); /* Ancho total menos padding */
+    padding: 10px;
+    border-radius: 5px; /* Esquinas redondeadas */
+    border: 1px solid #216eaa; /* Borde azul */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+}
+
+button {
+    background-color: #216eaa; /* Azul prusiano */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente grande */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1b5b8c; /* Un tono más claro al pasar el ratón */
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #216eaa; /* Azul prusiano oscuro */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para los círculos de desarrolladores */
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Hace la imagen circular */
+    overflow: hidden; /* Oculta cualquier exceso fuera del borde */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; /* Añade espacio entre los círculos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: sombra */
+}
+
+.circle img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor circular */
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen para llenar el círculo */
+    border-radius: 50%; /* Asegura que la imagen misma sea redonda */
+}
+
+/* Opcional: Centrado de los círculos */
+.circle-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos adicionales para el footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 14px;
+    margin-top: 40px;
+}
