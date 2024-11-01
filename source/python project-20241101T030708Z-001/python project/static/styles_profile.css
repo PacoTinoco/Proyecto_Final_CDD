@@ -1,0 +1,115 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor principal */
+main {
+    max-width: 800px; /* Ancho máximo */
+    margin: 40px auto; /* Centrando el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: white; /* Fondo blanco */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center; /* Centrando el texto */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+h1 {
+    color: #216eaa; /* Azul prusiano oscuro */
+}
+
+/* Estilos para secciones */
+section {
+    margin-bottom: 30px; /* Espacio entre secciones */
+    padding: 15px; /* Espaciado interno */
+    background-color: #e6f2ff; /* Fondo azul claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos de los títulos */
+h2, h3 {
+    color: #216eaa; /* Azul prusiano oscuro */
+}
+
+/* Estilos de los formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+}
+
+label {
+    margin: 10px 0 5px; /* Margen para etiquetas */
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid #216eaa; /* Borde azul */
+    border-radius: 5px; /* Esquinas redondeadas */
+    margin-bottom: 15px; /* Espacio entre inputs */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+}
+
+/* Estilo del botón */
+button {
+    background-color: #216eaa; /* Azul prusiano */
+    color: white;
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de fuente grande */
+}
+
+button:hover {
+    background-color: #1a5480; /* Tono más oscuro al pasar el ratón */
+}
+
+/* Estilos de la navegación */
+nav {
+    text-align: center; /* Centrando la navegación */
+    margin-top: 20px; /* Margen superior */
+}
+
+nav a {
+    color: #216eaa; /* Color azul prusiano */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center; /* Centrando el texto */
+    padding: 10px;
+    background-color: #216eaa; /* Azul prusiano oscuro */
+    color: white;
+    position: relative; /* Cambiado a relativo */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para el enlace "Salir" */
+#saliropcion {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: #216eaa; /* Color azul prusiano */
+    text-decoration: none; /* Sin subrayado */
+}
+
+#saliropcion:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+    font-weight: bold; /* Hacer el texto más audaz al pasar el ratón */
+    color: #1b5a88; /* Cambiar a un tono más oscuro al pasar el ratón */
+}
