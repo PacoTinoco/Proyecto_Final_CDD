@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/styles_interface.css">
+    <title>Interfaz Principal</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido, {{ user.username }}</h1>
+    </header>
+
+    <main>
+        <section class="options">
+            <h2>Opciones</h2>
+            <nav>
+                <a href="/profile">Ver Perfil</a>
+                <a href="/logout">Salir de Sesión</a>
+            </nav>
+        </section>
+
+        <section class="trading">
+            <form action="{{ url_for('user_bp.send_csv') }}" method="post" enctype="multipart/form-data">
+                <label for="file">Selecciona un archivo CSV:</label>
+                <input type="file" name="file" id="file" accept=".csv" required>
+                <br>
+                <br>
+                <br>
+                <label for="model">Selecciona el modelo:</label>
+                <select name="model" id="model" required>
+                    <option value="amazon">Modelo Amazon</option>
+                    <option value="google">Modelo Google</option>
+                </select>
+                <br>
+                <button type="submit">Subir y procesar</button>
+            </form>
+        </section>
+
+        <section class="chart">
+            <h2>Gráfico de Ganancias/Pérdidas en Tiempo Real</h2>
+            <canvas id="profitLossChart"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fishnet - Potenciado por Ciencia de Datos</p>
+    </footer>
+
+    <script>
+    // Configuración de la gráfica
+    const ctx = document.getElementById('profitLossChart').getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [], // Etiquetas para el eje X (índices de las predicciones)
+            datasets: [{
+                label: 'Predicciones',
+                data: [], // Los datos de las predicciones
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+
+    // Configuración de WebSocket
+    const socket = io();
+
+    // Manejar el envío del formulario
+    document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData();
+        formData.append('file', document.getElementById('csvFile').files[0]);
+        formData.append('model', document.getElementById('modelSelect').value);
+
+        try {
+            const response = await fetch('/upload_csv', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (!response.ok) throw new Error('Upload failed');
+
+            const data = await response.json();
+            console.log('Upload successful:', data);
+        } catch (error) {
+            console.error('Error:', error);
+            alert('Error uploading file: ' + error.message);
+        }
+    });
+
+    // Manejar actualizaciones de predicciones a través de WebSocket
+    socket.on('prediction_results', function(data) {
+        // Asegurarse de que los datos contengan una propiedad 'prediction'
+        if (data.predictions) {
+            // Limpiar datos anteriores de la gráfica
+            chart.data.labels = [];
+            chart.data.datasets[0].data = [];
+
+            // Agregar nuevas predicciones a la gráfica
+            data.predictions.forEach((value, index) => {
+                chart.data.labels.push(index); // Agregar índice como etiqueta en el eje X
+                chart.data.datasets[0].data.push(value); // Agregar valor de la predicción al conjunto de datos
+            });
+
+            // Actualizar la gráfica con los nuevos datos
+            chart.update();
+        } else {
+            console.error("Predictions data is missing or incorrect.");
+        }
+    });
+
+    // Limpiar gráfica al cerrar sesión
+    document.querySelector('a[href="/logout"]').addEventListener('click', () => {
+        chart.data.labels = [];
+        chart.data.datasets[0].data = [];
+        chart.update();
+    });
+    </script>
+
+</body>
+</html>

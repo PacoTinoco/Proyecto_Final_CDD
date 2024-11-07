@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/styles_profile.css">
+    <title>Perfil del Usuario</title>
+</head>
+<body>
+    <header>
+        <h1>Perfil de {{ user.username }}</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Configuración de API del Broker</h2>
+            <form action="{{ url_for('user_bp.save_api_key') }}" method="POST">
+                <label for="api_key">Llave de API:</label>
+                <input type="text" id="api_key" name="api_key" required>
+
+                <label for="broker">Seleccionar Broker:</label>
+                <select id="broker" name="broker">
+                    <option value="OANDA">OANDA</option>
+                    <!-- Agregar más brokers si es necesario -->
+                </select>
+
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+
+        <section>
+    <h3>Llaves de API Guardadas</h3>
+    {% if api_keys %}
+        <ul>
+            {% for key in api_keys %}
+                <li>
+                    {{ key.broker }}: {{ key.api_key }}
+                    <form action="{{ url_for('user_bp.delete_api_key', id=key.id) }}" method="POST" style="display:inline;">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No hay llaves de API guardadas.</p>
+    {% endif %}
+</section>
+
+    </main>
+    <nav>
+        <a id="saliropcion" href="{{ url_for('user_bp.interface') }}">Salir</a>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 Fishnet - Potenciado por Ciencia de Datos</p>
+    </footer>
+</body>
+</html>
