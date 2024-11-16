@@ -16,6 +16,7 @@ import yfinance as yf
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 
+
 ## df
 amazon_stock = yf.download('AMZN', start='2015-01-01', end='2024-01-01')
 
