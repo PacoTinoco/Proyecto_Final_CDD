@@ -5,7 +5,7 @@ class User(Document):
     username = StringField(required=True, max_length=50, unique=True)
     email = EmailField(required=True, unique=True)
     password = StringField(required=True, min_length=8)
-    api_keys = ListField(ReferenceField('APIKey'))  # Añade esta línea
+    api_keys = ListField(ReferenceField('APIKey'))  
 
 # CRUD Functions
 def create_user(username, email, password):

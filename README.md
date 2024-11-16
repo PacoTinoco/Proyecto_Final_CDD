@@ -2,23 +2,16 @@
 **Francisco Tinoco, Pedro Ley, José Luis Almendarez**
 ***
 
-Este proyecto tiene como objetivo el análisis de datos de las empresas tecnológicas Google, Amazon, y Apple, con un enfoque particular en el trading. Actualmente, el proyecto se encuentra en la etapa de Exploratory Data Analysis (EDA), donde se exploran patrones y características relevantes de los datos de estas tres compañías para un análisis más profundo y la futura implementación de modelos predictivos.
+Este proyecto tiene como objetivo el análisis de datos de las empresas tecnológicas Google, Amazon, y Apple, con un enfoque particular en el trading.
+En el proceso probamos diferentes modelos como xgboost, Arima y random forest que no fue el que mejor resultado nos dió pero si el que se nos facilitó más a la hora de implementación.
+Nuestros datos decidimos tomarlos del año 2015 hasta el año actual 2024 recopilados de yahoo finance como datos diarios.
 
 ## Estructura del proyecto:
-Proyecto_Final_CDD/
-│
-├── Informe escrito/
-│   └── NewGen.ipynb  # Notebook con el análisis exploratorio de los datos
-│
-├── Experimentos/
-│   └── notebooks/
-│       └── models_experiments/
-│           └── Model_1_Experiment.ipynb  # Aquí se incluirán los experimentos con los modelos predictivos
-│           └── Model_2_Experiment.ipynb  # Otro ejemplo de experimentos con modelos
-│
-├── .gitignore               # Archivo gitignore para excluir archivos innecesarios del control de versiones
-├── README.md                # Instrucciones y descripción del proyecto
-
+Encontrarás una carpeta DATA que contiene los datos que usamos para Amazon y Google en forma de csv.
+Dentro de la carpeta INFORME ESCRITO viene un notebook con los EDAS de cada empresa tecnológica que usamos, contiene la introducción al proyecto, los antecedentes, los objetivos, el planteamiento del problema, el desarrollo de la solución y después el respectivo análisis de los diferentes dfs, como sus distribuciones y  algunas gráficas de los ultimos años en base al cierre de la acción.
+Después dentro de otra carpeta MODEL EXPERIMENTS encontrarás los notebooks con los diferentes modelos que probamos a nuestros datos y elcual decidimos usar al final fue un random forest, que fue orquestado con prefect después.
+Dentro de nuestra carpeta SOURCE 
+Por útlimo tenemos nuestro TRAININ PIPELINE que se encuentra el flujo de entrenamiento cargado con prefect 
 
 Instalación y uso
 Requisitos previos
