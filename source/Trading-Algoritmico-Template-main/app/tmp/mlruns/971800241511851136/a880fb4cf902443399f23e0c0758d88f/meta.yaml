@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/a880fb4cf902443399f23e0c0758d88f/artifacts
+end_time: 1730587627368
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: a880fb4cf902443399f23e0c0758d88f
+run_name: righteous-shark-740
+run_uuid: a880fb4cf902443399f23e0c0758d88f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587618919
+status: 3
+tags: []
+user_id: almen

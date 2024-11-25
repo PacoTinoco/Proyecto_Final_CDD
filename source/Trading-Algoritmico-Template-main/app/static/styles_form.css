@@ -1,0 +1,76 @@
+/* Estilos generales para formularios */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor del formulario */
+.form-container {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 50px auto; /* Centrado vertical y horizontal */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: white; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para los encabezados */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: #216eaa; /* Azul prusiano oscuro */
+}
+
+/* Estilo para los labels */
+label {
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color oscuro para el texto */
+}
+
+/* Estilo para los inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Ancho total menos padding */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Esquinas redondeadas */
+    border: 1px solid #216eaa; /* Borde azul */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+    margin-bottom: 15px; /* Espacio entre inputs */
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #216eaa; /* Azul prusiano */
+    color: white;
+    padding: 10px 15px; /* Espaciado interno */
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente grande */
+    width: 100%; /* Botón ocupa todo el ancho */
+}
+
+button:hover {
+    background-color: #1a4e80; /* Un tono más oscuro al pasar el ratón */
+}
+/* Estilos generales para formularios */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo claro */
+    margin: 0;
+    padding: 20px; /* Añadir un padding alrededor del contenido */
+}
+
+/* Estilo para el contenedor del formulario */
+.form-container {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 50px auto; /* Centrado vertical y horizontal */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: white; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Resto del código CSS... */

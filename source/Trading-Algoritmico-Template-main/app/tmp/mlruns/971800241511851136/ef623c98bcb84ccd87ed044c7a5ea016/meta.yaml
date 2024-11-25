@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/ef623c98bcb84ccd87ed044c7a5ea016/artifacts
+end_time: 1730587067843
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: ef623c98bcb84ccd87ed044c7a5ea016
+run_name: gifted-hare-234
+run_uuid: ef623c98bcb84ccd87ed044c7a5ea016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587056019
+status: 3
+tags: []
+user_id: almen

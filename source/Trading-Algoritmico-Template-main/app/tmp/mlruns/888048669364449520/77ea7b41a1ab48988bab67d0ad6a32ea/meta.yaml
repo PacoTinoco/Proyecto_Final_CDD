@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/77ea7b41a1ab48988bab67d0ad6a32ea/artifacts
+end_time: 1730588430188
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 77ea7b41a1ab48988bab67d0ad6a32ea
+run_name: dapper-sow-447
+run_uuid: 77ea7b41a1ab48988bab67d0ad6a32ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588420489
+status: 3
+tags: []
+user_id: almen

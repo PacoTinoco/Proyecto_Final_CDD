@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/1219a92c290448fe8e37b1bdd4b9613f/artifacts
+end_time: 1730587282420
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 1219a92c290448fe8e37b1bdd4b9613f
+run_name: crawling-gull-598
+run_uuid: 1219a92c290448fe8e37b1bdd4b9613f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587274334
+status: 3
+tags: []
+user_id: almen

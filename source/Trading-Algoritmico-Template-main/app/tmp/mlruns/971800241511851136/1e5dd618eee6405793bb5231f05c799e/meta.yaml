@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/1e5dd618eee6405793bb5231f05c799e/artifacts
+end_time: 1730587618897
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 1e5dd618eee6405793bb5231f05c799e
+run_name: invincible-zebra-139
+run_uuid: 1e5dd618eee6405793bb5231f05c799e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587610204
+status: 3
+tags: []
+user_id: almen

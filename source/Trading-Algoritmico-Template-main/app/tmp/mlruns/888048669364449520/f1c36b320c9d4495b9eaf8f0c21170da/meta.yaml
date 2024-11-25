@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/f1c36b320c9d4495b9eaf8f0c21170da/artifacts
+end_time: 1730588328204
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: f1c36b320c9d4495b9eaf8f0c21170da
+run_name: loud-sow-665
+run_uuid: f1c36b320c9d4495b9eaf8f0c21170da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588319601
+status: 3
+tags: []
+user_id: almen

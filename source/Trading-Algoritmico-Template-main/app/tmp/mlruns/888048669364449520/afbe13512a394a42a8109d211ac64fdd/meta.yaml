@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/afbe13512a394a42a8109d211ac64fdd/artifacts
+end_time: 1730588055377
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: afbe13512a394a42a8109d211ac64fdd
+run_name: ambitious-goat-46
+run_uuid: afbe13512a394a42a8109d211ac64fdd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588043265
+status: 4
+tags: []
+user_id: almen

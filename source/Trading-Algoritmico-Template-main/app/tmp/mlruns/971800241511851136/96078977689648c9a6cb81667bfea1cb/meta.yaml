@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/96078977689648c9a6cb81667bfea1cb/artifacts
+end_time: 1730587031017
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 96078977689648c9a6cb81667bfea1cb
+run_name: blushing-shrike-553
+run_uuid: 96078977689648c9a6cb81667bfea1cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587020267
+status: 3
+tags: []
+user_id: almen

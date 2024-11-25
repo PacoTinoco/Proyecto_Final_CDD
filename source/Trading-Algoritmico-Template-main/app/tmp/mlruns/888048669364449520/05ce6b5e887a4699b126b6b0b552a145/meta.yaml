@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/05ce6b5e887a4699b126b6b0b552a145/artifacts
+end_time: 1730588472149
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 05ce6b5e887a4699b126b6b0b552a145
+run_name: charming-pug-203
+run_uuid: 05ce6b5e887a4699b126b6b0b552a145
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588464154
+status: 3
+tags: []
+user_id: almen

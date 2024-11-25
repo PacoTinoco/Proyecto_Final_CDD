@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/218145a9987a4dbfb87a724562ed0910/artifacts
+end_time: 1730587010571
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 218145a9987a4dbfb87a724562ed0910
+run_name: stately-fawn-286
+run_uuid: 218145a9987a4dbfb87a724562ed0910
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730586996828
+status: 3
+tags: []
+user_id: almen

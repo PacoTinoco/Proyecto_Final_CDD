@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/9de9893b97294e9c8ea69a4d9728a2e2/artifacts
+end_time: 1730588319580
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 9de9893b97294e9c8ea69a4d9728a2e2
+run_name: nebulous-slug-93
+run_uuid: 9de9893b97294e9c8ea69a4d9728a2e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588310804
+status: 3
+tags: []
+user_id: almen

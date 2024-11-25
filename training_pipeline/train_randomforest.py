@@ -119,8 +119,6 @@ def hyper_parameter_tuning_rf(X_train, X_val, y_train, y_val):
     return best_params
 
 
-
-
 # Función para entrenar el mejor modelo
 @task(name="Train Best Model")
 def train_best_model(X_train, X_val, y_train, y_val, best_params) -> None:

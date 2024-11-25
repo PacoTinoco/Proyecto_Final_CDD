@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/96aabc47ecd24c82a61a9f43e486ae04/artifacts
+end_time: 1730587552696
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 96aabc47ecd24c82a61a9f43e486ae04
+run_name: stylish-cod-246
+run_uuid: 96aabc47ecd24c82a61a9f43e486ae04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587542310
+status: 3
+tags: []
+user_id: almen

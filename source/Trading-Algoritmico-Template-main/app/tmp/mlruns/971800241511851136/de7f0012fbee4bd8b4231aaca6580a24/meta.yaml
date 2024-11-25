@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/de7f0012fbee4bd8b4231aaca6580a24/artifacts
+end_time: 1730587299408
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: de7f0012fbee4bd8b4231aaca6580a24
+run_name: entertaining-owl-979
+run_uuid: de7f0012fbee4bd8b4231aaca6580a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587290562
+status: 3
+tags: []
+user_id: almen

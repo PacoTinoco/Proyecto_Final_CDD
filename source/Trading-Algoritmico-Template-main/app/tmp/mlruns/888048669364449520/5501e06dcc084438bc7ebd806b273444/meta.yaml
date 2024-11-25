@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/5501e06dcc084438bc7ebd806b273444/artifacts
+end_time: 1730588420469
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 5501e06dcc084438bc7ebd806b273444
+run_name: unleashed-whale-294
+run_uuid: 5501e06dcc084438bc7ebd806b273444
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588410860
+status: 3
+tags: []
+user_id: almen

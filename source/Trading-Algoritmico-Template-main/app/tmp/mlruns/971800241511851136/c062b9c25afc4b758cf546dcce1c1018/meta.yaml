@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/c062b9c25afc4b758cf546dcce1c1018/artifacts
+end_time: 1730586539178
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: c062b9c25afc4b758cf546dcce1c1018
+run_name: mercurial-pig-243
+run_uuid: c062b9c25afc4b758cf546dcce1c1018
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730586531068
+status: 3
+tags: []
+user_id: almen

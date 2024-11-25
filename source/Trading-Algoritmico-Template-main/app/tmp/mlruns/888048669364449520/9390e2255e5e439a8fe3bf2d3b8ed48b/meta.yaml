@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/9390e2255e5e439a8fe3bf2d3b8ed48b/artifacts
+end_time: 1730588455845
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 9390e2255e5e439a8fe3bf2d3b8ed48b
+run_name: skittish-hound-32
+run_uuid: 9390e2255e5e439a8fe3bf2d3b8ed48b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588447614
+status: 3
+tags: []
+user_id: almen

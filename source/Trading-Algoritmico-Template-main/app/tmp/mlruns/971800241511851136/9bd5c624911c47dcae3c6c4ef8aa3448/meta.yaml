@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/9bd5c624911c47dcae3c6c4ef8aa3448/artifacts
+end_time: 1730587542284
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 9bd5c624911c47dcae3c6c4ef8aa3448
+run_name: thoughtful-quail-613
+run_uuid: 9bd5c624911c47dcae3c6c4ef8aa3448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587497816
+status: 3
+tags: []
+user_id: almen

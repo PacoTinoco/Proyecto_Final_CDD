@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/5ba756a89e024f26a11e76dce66f9565/artifacts
+end_time: 1730587308876
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 5ba756a89e024f26a11e76dce66f9565
+run_name: redolent-dog-161
+run_uuid: 5ba756a89e024f26a11e76dce66f9565
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587299430
+status: 3
+tags: []
+user_id: almen

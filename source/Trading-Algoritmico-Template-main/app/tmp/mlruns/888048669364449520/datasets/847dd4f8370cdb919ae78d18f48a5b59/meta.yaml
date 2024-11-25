@@ -1,0 +1,8 @@
+digest: f8c1c0a7
+name: validation
+profile: '{"features_shape": [453, 5], "features_size": 2265, "features_nbytes": 9060}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float32\", \"shape\": [-1, 5]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "almen", "mlflow.source.name": "C:\\Users\\almen\\Documents\\dev\\samsara\\pythonProject\\.venv\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

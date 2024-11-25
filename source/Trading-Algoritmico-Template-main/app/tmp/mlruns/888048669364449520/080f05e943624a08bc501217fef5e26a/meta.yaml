@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/080f05e943624a08bc501217fef5e26a/artifacts
+end_time: 1730588377062
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 080f05e943624a08bc501217fef5e26a
+run_name: Xgboost Hyper-parameter Optimization
+run_uuid: 080f05e943624a08bc501217fef5e26a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588280353
+status: 3
+tags: []
+user_id: almen

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/fbc9fff9696e4b3ca5d976b53fa28973/artifacts
+end_time: 1730586514323
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: fbc9fff9696e4b3ca5d976b53fa28973
+run_name: enchanting-ant-571
+run_uuid: fbc9fff9696e4b3ca5d976b53fa28973
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730586502823
+status: 3
+tags: []
+user_id: almen

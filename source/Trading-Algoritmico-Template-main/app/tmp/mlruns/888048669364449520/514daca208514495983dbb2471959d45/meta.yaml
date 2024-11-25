@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/514daca208514495983dbb2471959d45/artifacts
+end_time: 1730588310786
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 514daca208514495983dbb2471959d45
+run_name: unruly-pig-909
+run_uuid: 514daca208514495983dbb2471959d45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588302013
+status: 3
+tags: []
+user_id: almen

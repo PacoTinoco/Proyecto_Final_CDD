@@ -1,0 +1,9 @@
+digest: 4896aa15
+name: dataset
+profile: '{"features_shape": [1811, 5], "features_size": 9055, "features_nbytes":
+  36220}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float32\", \"shape\": [-1, 5]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "almen", "mlflow.source.name": "C:\\Users\\almen\\Documents\\dev\\samsara\\pythonProject\\.venv\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

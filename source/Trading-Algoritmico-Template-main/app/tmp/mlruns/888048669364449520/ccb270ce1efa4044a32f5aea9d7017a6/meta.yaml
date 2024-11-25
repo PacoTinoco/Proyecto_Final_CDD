@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/ccb270ce1efa4044a32f5aea9d7017a6/artifacts
+end_time: 1730588292574
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: ccb270ce1efa4044a32f5aea9d7017a6
+run_name: stylish-flea-667
+run_uuid: ccb270ce1efa4044a32f5aea9d7017a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588280687
+status: 3
+tags: []
+user_id: almen

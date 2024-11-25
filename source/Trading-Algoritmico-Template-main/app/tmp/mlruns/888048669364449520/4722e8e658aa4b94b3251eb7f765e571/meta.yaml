@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/4722e8e658aa4b94b3251eb7f765e571/artifacts
+end_time: 1730588338655
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: 4722e8e658aa4b94b3251eb7f765e571
+run_name: wistful-boar-828
+run_uuid: 4722e8e658aa4b94b3251eb7f765e571
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588328227
+status: 3
+tags: []
+user_id: almen

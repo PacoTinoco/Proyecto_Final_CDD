@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/f9f43ff9c2db4016be33eaf8a29c269e/artifacts
+end_time: 1730588372290
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: f9f43ff9c2db4016be33eaf8a29c269e
+run_name: fun-sheep-786
+run_uuid: f9f43ff9c2db4016be33eaf8a29c269e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588364238
+status: 3
+tags: []
+user_id: almen

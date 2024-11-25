@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/2f9508c84cde4a94a9b401a1059987ea/artifacts
+end_time: 1730587610184
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 2f9508c84cde4a94a9b401a1059987ea
+run_name: rumbling-horse-896
+run_uuid: 2f9508c84cde4a94a9b401a1059987ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587601693
+status: 3
+tags: []
+user_id: almen

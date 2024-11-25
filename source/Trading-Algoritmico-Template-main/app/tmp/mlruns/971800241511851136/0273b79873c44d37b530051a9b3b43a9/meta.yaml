@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/0273b79873c44d37b530051a9b3b43a9/artifacts
+end_time: 1730587601675
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 0273b79873c44d37b530051a9b3b43a9
+run_name: bouncy-croc-130
+run_uuid: 0273b79873c44d37b530051a9b3b43a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587593436
+status: 3
+tags: []
+user_id: almen

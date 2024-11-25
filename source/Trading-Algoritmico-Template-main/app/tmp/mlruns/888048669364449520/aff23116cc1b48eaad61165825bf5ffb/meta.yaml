@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/888048669364449520/aff23116cc1b48eaad61165825bf5ffb/artifacts
+end_time: 1730588464135
+entry_point_name: ''
+experiment_id: '888048669364449520'
+lifecycle_stage: active
+run_id: aff23116cc1b48eaad61165825bf5ffb
+run_name: rare-frog-213
+run_uuid: aff23116cc1b48eaad61165825bf5ffb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730588455867
+status: 3
+tags: []
+user_id: almen

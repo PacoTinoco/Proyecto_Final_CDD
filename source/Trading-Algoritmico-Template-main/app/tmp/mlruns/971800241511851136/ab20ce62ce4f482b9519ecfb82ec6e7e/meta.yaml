@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/ab20ce62ce4f482b9519ecfb82ec6e7e/artifacts
+end_time: 1730587044411
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: ab20ce62ce4f482b9519ecfb82ec6e7e
+run_name: capable-stork-594
+run_uuid: ab20ce62ce4f482b9519ecfb82ec6e7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587031035
+status: 3
+tags: []
+user_id: almen

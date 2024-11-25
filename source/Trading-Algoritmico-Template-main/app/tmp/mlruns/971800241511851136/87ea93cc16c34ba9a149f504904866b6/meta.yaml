@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/almen/Documents/dev/samsara/pythonProject/app/tmp/mlruns/971800241511851136/87ea93cc16c34ba9a149f504904866b6/artifacts
+end_time: 1730587020247
+entry_point_name: ''
+experiment_id: '971800241511851136'
+lifecycle_stage: active
+run_id: 87ea93cc16c34ba9a149f504904866b6
+run_name: intelligent-tern-71
+run_uuid: 87ea93cc16c34ba9a149f504904866b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730587010592
+status: 3
+tags: []
+user_id: almen
