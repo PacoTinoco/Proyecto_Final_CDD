@@ -40,4 +40,11 @@ Nuestro dataset tiene columnas como:
 - Low: Precio mínimo alcanzado durante el intervalo.
 - Close: Precio de cierre de la acción.
 - Volume: Número de acciones negociadas.
+
+
+Trading-Algoritmo-Template-main: 
+
+
+En esta carpeta estan las 3 apis necesarias para correr el modelo, gestionar el flujo de las 'requests' 
+e interactuar con la aplicación. Ademas de las imagenes de docker y el respectivo docker-compose para poder correr el producto como un conjunto.
  
